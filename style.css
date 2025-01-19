@@ -112,4 +112,11 @@ padding-top: 20px;
         grid-template-columns: repeat(3,1fr);
        gap: 20px;
     }
+    .cameraphoto,
+    .lastphoto {
+        width: 500px;
+    }
+}
+@media screen and (min-width:570px) and (max-width:992px) {
+   
 }
