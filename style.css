@@ -1,0 +1,115 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    width: 100%;
+    
+}
+.navlist{
+
+    display: flex;
+    
+}
+.camera{
+    display: flex;
+}
+.discription{
+    max-width: 580px;
+    margin:50px;
+    text-align: center;
+    padding: 15px;
+}
+.cameraphoto{
+    margin: auto;
+    max-width: 100%;
+   background-image: url(images/Circle\ design.svg);
+}
+.lastphoto{
+    width: 100%;
+    margin: auto;
+}
+.title{
+    font-size: 3rem;
+    margin: 10px;
+}
+.nav-item,.fa-solid{
+    
+    margin-right: 20px;
+    list-style: none;
+margin-right: 26px;
+}
+.h3{
+    margin-left: 20px;
+}
+.h2{
+    text-align: center;
+    margin-top: 50px;
+   font-style: italic;
+   font-size: 2rem;
+   color: rgb(25, 214, 66);
+   font-weight: 800;
+}
+.button{
+    background-color: chocolate;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.amazon{
+    display: grid;
+    
+    grid-template-columns: repeat(7,1fr);
+    margin: 20px;
+    margin-top: 50px;
+}
+.product{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: auto;
+  
+    
+}
+.numberone{
+    background-color: blanchedalmond;
+margin-left: 20px;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+padding-left: 30px;
+padding-top: 20px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.lastpara{
+    margin: 50px;
+}
+.finising{
+    background-color: rgb(25, 144, 223);
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+@media screen and (max-width:580px) {
+    .product{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .last,
+    .nav,
+    .navlist,
+    .camera{
+        flex-direction: column;
+    }
+    .amazon{
+        grid-template-columns: repeat(3,1fr);
+
+    }
+}
