@@ -26,6 +26,7 @@
     margin: auto;
     max-width: 100%;
    background-image: url(images/Circle\ design.svg);
+   background-size: auto;
 }
 .lastphoto{
     width: 100%;
