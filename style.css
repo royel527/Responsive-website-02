@@ -110,13 +110,23 @@ padding-top: 20px;
     }
     .amazon{
         grid-template-columns: repeat(3,1fr);
-       gap: 20px;
+       gap: 30px;
     }
     .cameraphoto,
     .lastphoto {
-        width: 500px;
+        /* width: 500px; */
+        margin: 0px ;
+        padding: 0px ;
     }
 }
 @media screen and (min-width:570px) and (max-width:992px) {
-   
+    .amazon {
+        grid-template-columns: repeat(2,1fr);
+       gap: 30px;
+    }
+    .product{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+     }
+    }
 }
