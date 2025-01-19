@@ -115,12 +115,12 @@ padding-top: 20px;
         grid-template-columns: repeat(2,1fr);
        gap: 30px;
     }
-    .cameraphoto,
+    /* .cameraphoto,
     .lastphoto {
         width: 300px;
         margin: 0px ;
         padding: 0px ;
-    }
+    } */
 }
 .button:hover{
     background-color: chartreuse;
@@ -135,7 +135,7 @@ a:hover{
 }
 @media screen and (min-width:570px) and (max-width:992px) {
     .amazon {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(4,1fr);
        gap: 30px;
     }
     .product{
