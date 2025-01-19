@@ -109,7 +109,7 @@ padding-top: 20px;
         flex-direction: column;
     }
     .amazon{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
        gap: 30px;
     }
     .cameraphoto,
@@ -118,6 +118,17 @@ padding-top: 20px;
         margin: 0px ;
         padding: 0px ;
     }
+}
+.button:hover{
+    background-color: chartreuse;
+    transform: rotate(5deg);
+}
+a:hover{
+    color: crimson;
+    
+}
+.numberone:hover{
+    background-color: deepskyblue;
 }
 @media screen and (min-width:570px) and (max-width:992px) {
     .amazon {
